@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Itim;
+  src: url(./fonts/Itim-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Itim;
+  font-display: block;
+}
+
+html {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(255, 255, 255, 0.4) 100%,
+      rgba(255, 255, 255, 0.3) 100%,
+      rgba(255, 255, 255, 0.2) 100%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(./assets/website-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box-content {
+  padding: 1rem 5vw;
+}
+
+.paragraph {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  word-spacing: 0.325rem;
+  text-align: justify;
+  font-weight: 550;
+  background: linear-gradient(
+    to left bottom,
+    rgba(255, 255, 255, 0.5) 100%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.title:before,
+.title:after {
+  content: '🐯';
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  .box-content {
+    padding: 1rem 2rem;
+  }
 }
