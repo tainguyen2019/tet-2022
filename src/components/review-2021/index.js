@@ -21,7 +21,7 @@ function Review2021() {
         <br />
         - May mắn tìm được một công việc tốt, phù hợp với định hướng ban đầu.
         <br />
-        - Trải nghiệm WFH(work form home) suốt mấy tháng dịch.
+        - Trải nghiệm WFH(work from home) suốt mấy tháng dịch.
         <br />
         - Nghiên cứu, học hỏi thêm nhiều thứ mới. Dù có khi cũng bế tắc nhưng
         sau cùng cũng suôn sẻ hết.
