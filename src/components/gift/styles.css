@@ -1,0 +1,120 @@
+.distich {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  -webkit-animation: fadein 1.25s;
+  -moz-animation: fadein 1.25s;
+  -ms-animation: fadein 1.25s;
+  -o-animation: fadein 1.25s;
+  animation: fadein 1.25s;
+}
+
+.image-decoration {
+  width: min(90vw, 90vh);
+  height: auto;
+  margin-top: 1rem;
+  border: 0.25rem solid;
+  border-radius: 0.25rem;
+  border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+/* Loading animation */
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.dot-pulse {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: red;
+  box-shadow: 9999px 0 0 -5px red;
+  animation: dotPulse 1.25s infinite linear;
+  animation-delay: 0.25s;
+  margin-left: 1.25rem;
+}
+
+.dot-pulse::before,
+.dot-pulse::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: red;
+}
+
+.dot-pulse::before {
+  box-shadow: 9984px 0 0 -5px red;
+  animation: dotPulseBefore 1.25s infinite linear;
+  animation-delay: 0s;
+}
+
+.dot-pulse::after {
+  box-shadow: 10014px 0 0 -5px red;
+  animation: dotPulseAfter 1.25s infinite linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes dotPulseBefore {
+  0% {
+    box-shadow: 9984px 0 0 -5px red;
+  }
+  30% {
+    box-shadow: 9984px 0 0 2px red;
+  }
+  60%,
+  100% {
+    box-shadow: 9984px 0 0 -5px red;
+  }
+}
+
+@keyframes dotPulse {
+  0% {
+    box-shadow: 9999px 0 0 -5px red;
+  }
+  30% {
+    box-shadow: 9999px 0 0 2px red;
+  }
+  60%,
+  100% {
+    box-shadow: 9999px 0 0 -5px red;
+  }
+}
+
+@keyframes dotPulseAfter {
+  0% {
+    box-shadow: 10014px 0 0 -5px red;
+  }
+  30% {
+    box-shadow: 10014px 0 0 2px red;
+  }
+  60%,
+  100% {
+    box-shadow: 10014px 0 0 -5px red;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

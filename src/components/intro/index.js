@@ -16,8 +16,8 @@ function Intro() {
         <br />
         <br />
         <h3>2. Tet2022 có gì...</h3>
-        Do thời gian có hạn nên mình làm sim-bồ nhất có thể, dù là vậy nhưng tui
-        cũng đã chăm chút từng chi tiết :))
+        Do thời gian có hạn nên mình làm sim-bồ nhất có thể, dù là vậy nhưng
+        Tet2022 cũng được chăm chút từng chi tiết :))
         <br />
         👉
         <i>Giới thiệu:</i> Mô tả chung về Tet2022.
@@ -34,8 +34,8 @@ function Intro() {
         <br />
         <h3>3. Kết, như thường lệ 🤣</h3>
         Cảm ơn mọi người đã truy cập Tet2022. Seri tết vẫn sẽ tiếp tục vào năm
-        sau và nhiều năm sau nữa. Hy vọng mọi người ủng hộ. Mình rất mong nhận
-        được các đóng góp để mình có thể hoàn thiện hơn sau này.
+        sau và nhiều năm sau nữa, hy vọng mọi người tiếp tục ủng hộ. Mình rất
+        mong nhận được các đóng góp để mình có thể hoàn thiện hơn sau này.
       </div>
       <HomeButton />
     </div>

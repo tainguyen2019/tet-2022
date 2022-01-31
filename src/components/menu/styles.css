@@ -25,10 +25,11 @@
   padding: 24px;
   background: url(../../assets/button-bg.png) rgb(194 234 101);
   background-size: contain;
-  border-radius: 6px;
+  border-radius: 0.75rem;
   cursor: pointer;
   margin: 32px 0;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .link-item:hover {
