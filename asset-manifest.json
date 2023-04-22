@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9cf9a7c.css",
-    "main.js": "/static/js/main.51d2fd30.js",
-    "static/js/787.869007d0.chunk.js": "/static/js/787.869007d0.chunk.js",
-    "static/media/button-bg.png": "/static/media/button-bg.43452911def34d2f2cec.png",
-    "static/media/website-bg.jpg": "/static/media/website-bg.add9eb65aad72b3a99cd.jpg",
-    "static/media/Itim-Regular.ttf": "/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
-    "index.html": "/index.html",
-    "main.e9cf9a7c.css.map": "/static/css/main.e9cf9a7c.css.map",
-    "main.51d2fd30.js.map": "/static/js/main.51d2fd30.js.map",
-    "787.869007d0.chunk.js.map": "/static/js/787.869007d0.chunk.js.map"
+    "main.css": "/tet-2022/static/css/main.0923d754.css",
+    "main.js": "/tet-2022/static/js/main.0748a8c9.js",
+    "static/js/787.869007d0.chunk.js": "/tet-2022/static/js/787.869007d0.chunk.js",
+    "static/media/button-bg.png": "/tet-2022/static/media/button-bg.43452911def34d2f2cec.png",
+    "static/media/website-bg.jpg": "/tet-2022/static/media/website-bg.add9eb65aad72b3a99cd.jpg",
+    "static/media/Itim-Regular.ttf": "/tet-2022/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
+    "index.html": "/tet-2022/index.html",
+    "main.0923d754.css.map": "/tet-2022/static/css/main.0923d754.css.map",
+    "main.0748a8c9.js.map": "/tet-2022/static/js/main.0748a8c9.js.map",
+    "787.869007d0.chunk.js.map": "/tet-2022/static/js/787.869007d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9cf9a7c.css",
-    "static/js/main.51d2fd30.js"
+    "static/css/main.0923d754.css",
+    "static/js/main.0748a8c9.js"
   ]
 }
